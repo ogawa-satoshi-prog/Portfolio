@@ -1,4 +1,17 @@
+/* header */
 header nav ul {
     width: 100%;
     display: flex;
+}
+
+/* fotter */
+.footer {
+    padding: 10px;
+    background-color: #333;
+    /* background-color: #8473B2; */
+}
+.copyright {
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
 }
