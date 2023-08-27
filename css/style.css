@@ -26,6 +26,9 @@ border-style: none;
 .wrapper {
     padding-top: 73px;
 }
+.section {
+    padding: 90px 0;
+}
 .container {
     max-width: 100%;
     margin: 0 auto;
