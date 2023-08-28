@@ -118,12 +118,15 @@ img {
 
 /* ページトップ */
 .page-top {
+    width: 100px;
+    margin: 0 auto;
     font-weight: bold;
-    padding: 10px;
+    padding: 3px 10px 10px 10px;
+    border-radius: 50px;
+    margin-bottom: -20px;
     cursor: pointer;
     text-align: center;
-    background-color: #545454;
-    /* background-color: #FF9CEA; */
+    background-color: #333;
 }
   
 .page-top .material-icons-outlined {
