@@ -116,9 +116,24 @@ img {
     line-height: 1.8;
 }
 
+/* ページトップ */
+.page-top {
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #545454;
+    /* background-color: #FF9CEA; */
+}
+  
+.page-top .material-icons-outlined {
+    vertical-align: bottom;
+    color: #fff;
+}
+
 /* fotter */
 .footer {
-    padding: 10px;
+    padding: 30px;
     background-color: #333;
     /* background-color: #8473B2; */
 }
