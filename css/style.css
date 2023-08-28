@@ -61,10 +61,10 @@ img {
 }
 .nav-item a {
     position: relative;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
     display: inline-block;
-    padding: 5px 0;
+    padding: 5px;
     transition: .3s;
     letter-spacing: .05em;
     color: #333;
