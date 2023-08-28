@@ -97,17 +97,17 @@ img {
     padding: 0 40px;
 }
 .mv-title {
-    font-size: 60px;
+    font-size: 68px;
     font-weight: bold;
     line-height: 1.2;
     margin-bottom: 5px;
     letter-spacing: .1em;
 }
 .mv-subtitle {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
     line-height: 1;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     letter-spacing: .08em;
 }
 .mv-text {
