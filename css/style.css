@@ -23,9 +23,6 @@ img {
 }
 
 /* レイアウト */
-/* .wrapper {
-    padding-top: 73px;
-} */
 .section {
     padding: 90px 0;
 }
@@ -37,6 +34,20 @@ img {
     max-width: 100%;
     margin: 0 auto;
     padding: 0 40px;
+}
+.title {
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 40px;
+    text-align: center;
+    letter-spacing: .05em;
+    color: #333;
+}
+.lead {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 30px;
 }
 
 /* header */
@@ -129,7 +140,6 @@ img {
     0% { width: 0%; }
     100% { width: 25em; }
 }
-
 /*** カーソルが点滅するアニメーション ***/
 @keyframes cursol{
     0%{ border-color: transparent; }/*消滅*/
@@ -189,6 +199,40 @@ img {
     width:1px;
     height: 50px;
     background:#333;
+}
+
+/* works */
+.works-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -40px;
+}
+.works-item {
+    width: 31.74603%;
+    margin-right: 1.58730%;
+    margin-bottom: 40px;
+    color: #333;
+    display: inline-block;
+}
+.works-item:nth-of-type(3n) {
+    margin-right: 0;
+}
+.works-img img {
+    border: 1px solid #ccc;
+}
+.works-img img:hover {
+    transform: translate(-4px, -4px);
+    box-shadow: 4px 4px #ccc;
+    transition: 0.1s;
+}
+.works-name {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.works-info {
+    font-size: 10px;
+    margin-top: 5px;
 }
 
 /* ページトップ */
