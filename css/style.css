@@ -114,6 +114,28 @@ img {
     font-size: 16px;
     line-height: 1.8;
 }
+/***タイピングアニメーションを追加***/
+.typewriter{
+    width: 0;
+    border-right: 0.08em solid black; /*カーソル用の線*/
+    overflow: hidden; /*はみ出た要素を非表示に*/
+    white-space: nowrap; /*1行に*/
+    margin: 0 auto;
+    animation: typing 1s steps(11, end) forwards, cursol 1s step-end infinite;
+    /*animation: アニメーション名｜時間｜分割数｜ループ */
+}
+/*** 1文字ずつ出現するアニメーション ***/
+@keyframes typing{
+    0% { width: 0%; }
+    100% { width: 25em; }
+}
+
+/*** カーソルが点滅するアニメーション ***/
+@keyframes cursol{
+    0%{ border-color: transparent; }/*消滅*/
+    50%{ border-color: black; } /*出現*/
+    100%{ border-color: transparent; }/*消滅*/
+}
 /*スクロールダウン全体の場所*/
 .scrolldown{
     /*描画位置※位置は適宜調整してください*/
