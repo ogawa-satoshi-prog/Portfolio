@@ -27,8 +27,7 @@ img {
     padding: 90px 0;
 }
 .section:nth-of-type(odd) {
-    background-color: #f7f7f7;
-    /* background-color: #f2f1f280; */
+    background-color: #fff;
 }
 .container {
     max-width: 100%;
@@ -233,6 +232,32 @@ img {
 .works-info {
     font-size: 10px;
     margin-top: 5px;
+}
+
+/* profile */
+.profile {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.profile-img {
+    width: 20%;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.profile-img img {
+    border-radius: 50%;
+}
+.profile-body {
+    flex: 1;
+}
+.profile-body p {
+    font-size: 15px;
+    line-height: 1.8;
+}
+.profile-body p:not(:last-child) {
+    margin-bottom: 30px;
 }
 
 /* ページトップ */
